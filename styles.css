@@ -1,0 +1,90 @@
+#container {
+    position: fixed;
+    background-color: black;
+    margin: -8px;
+    height: 100%;
+    width: 100%;
+}
+
+.navigation-bar {
+    position: fixed;
+    left: 8px;
+    height: 125px;
+    width: 100%;
+    margin: -8px;
+    background-color: darkorange;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.navigation-item {
+    font-family: arial black;
+    color: white;
+    width: 100px;
+}
+
+#order-now {
+    position: absolute;
+    left: 215px;
+    top: 80px;
+}
+
+#our-menu {
+    position:absolute;
+    left:415px;
+    top: 80px
+}
+
+#find-us {
+    position:absolute;
+    left:615px;
+    top: 80px
+}
+
+#about-us {
+    position:absolute;
+    left:815px;
+    top: 80px
+}
+
+#contact-us {
+    position:absolute;
+    left:1015px;
+    top: 80px
+}
+
+.navigation-item:hover {
+    color:lightblue;
+}
+
+#facebook-link {
+    position: absolute;
+    padding:0px;
+    margin: 50px 40px 40px 40px;
+    left:1150px;
+}
+
+#twitter-link {
+    position: absolute;
+    padding:0px;
+    margin: 50px 40px 40px 40px;
+    left:1200px;
+}
+
+#instagram-link {
+    position: absolute;
+    padding:0px;
+    margin: 50px 40px 40px 40px;
+    left:1250px;
+}
+
+#pinterest-link {
+    position: absolute;
+    padding:0px;
+    margin: 50px 40px 40px 40px;
+    left:1300px;
+}
