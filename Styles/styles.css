@@ -60,7 +60,7 @@ body {
 .container {
     width: 80%;
     margin: 0 10% 0 10%;
-    padding: 6.75% 0 0 0;
+    padding: 7% 0 0 0;
     flex-direction: column;
     justify-content: center;
 }
@@ -68,7 +68,7 @@ body {
 .banner {
     padding: 20%;
     display: flex;
-    border: double 6px white;
+    border: solid 3px white;
     border-radius: 10px;
     justify-content: center;
     align-content: center;
@@ -78,19 +78,19 @@ body {
 
 .biz-name {
     padding: 10px 20px 10px 20px;
-    border: 6px white double;
-    border-radius: 10px;
+    border-top: 6px white double;
+    border-bottom: 6px white double;
     font: 80px 'Playball', cursive;
     color: white;
 }
 
 .popular {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 15%;
     background-color: transparent;
 }
-.pop-item p{
+.pop-item {
     font: 20px 'Kanit', sans-serif;
 }
 
