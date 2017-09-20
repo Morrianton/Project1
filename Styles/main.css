@@ -66,7 +66,7 @@ a:hover {
     justify-content: center;
 }
 
-.banner {
+.banner-main, .banner-menu {
     padding: 20%;
     display: flex;
     border: solid 3px white;
@@ -76,7 +76,17 @@ a:hover {
     background-size: cover;
 }
 
-.biz-name {
+.banner-main {
+    background: url("../Media/kaeng-kheaw-waan.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner-menu {
+    background: url("../Media/menu.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.biz-name, .title-menu {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -86,6 +96,7 @@ a:hover {
     border-top: white double 3px;
     border-bottom: white double 3px;
 }
+
 
 .subtitle {
     width: 100%;
@@ -148,16 +159,6 @@ a:hover {
     border: solid white 3px;
 }
 
-.pop-img img:hover{
-    max-width: 375px;
-    max-height: 375px;
-    width: auto;
-    height: auto;
-    filter: brightness(110%);
-    border-radius: 50%;
-    border: solid #faf994 3px;
-}
-
 .pop-descrip {
     width: 80%;
     display: flex;
@@ -165,16 +166,11 @@ a:hover {
     color: white;
 }
 
-.pop-descrip a {
+.pop-descrip h2 {
     text-align: center;
     color: white;
     text-decoration: none;
-    font-size: 20px;
-}
-
-.pop-descrip a:hover {
-    color: #faf994;
-    text-decoration: underline;
+    font-size: 22px;
 }
 
 .pop-descrip p {
