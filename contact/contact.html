@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Kanit|Playball|Questrial" rel="stylesheet">
+    <link rel="stylesheet" href="../Styles/styles.css">
     <title>Title</title>
 </head>
 <body>
@@ -19,6 +21,31 @@
             </div>
         </div>
     </div>
+
+    <form action="myform.php" method="post">
+        <div class="container">
+            <div class="info">
+                <div class="form">
+                    <div class="query">First Name:</div>
+                    <div class="field"><input type="text" name="fname" size="25"required></div>
+                    <div class="query">Last Name:</div>
+                    <div class="field"><input type="text" name="lname" size="25" required></div>
+                    <div class="query">Street Address:</div>
+                    <div class="field"><input type="text" name="street" size="50" required></div>
+                    <div class="query">City:</div>
+                    <div class="field"><input type="text" name="city" size="50" required></div>
+                    <div class="query">Zip Code:</div>
+                    <div class="field"><input type="text" name="zip" size="5" required></div>
+                    <div class="query">Email Address:</div>
+                    <div class="field"><input type="email" name="email" size="50" required></div>
+                    <div class="query">Comments:</div>
+                    <div class="field"><input type="text" name="comment" size="50" required maxlength="320"></div>
+                    <div class="submit-button"><input type="submit"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+
     <div class="footer">
         <div class="center-box">
             <div class="nav-left">
